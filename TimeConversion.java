@@ -1,3 +1,9 @@
+import java.io.*;
+import java.math.*;
+import java.text.*;
+import java.util.*;
+import java.util.regex.*;
+
 public class TimeConversion{
     static String timeConversion(String s) {
         String hourIn = s.substring(0,2);
